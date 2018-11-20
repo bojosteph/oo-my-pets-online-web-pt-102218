@@ -1,10 +1,10 @@
 class Owner
-  attr_accessor :pets :name
+  attr_accessor  :name
 
   
-  def initialize(species)
+  def initialize
     @name = name
-    owner.species = "human"
+    
     
   end
   
