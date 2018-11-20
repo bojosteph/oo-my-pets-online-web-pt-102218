@@ -53,6 +53,8 @@ class Owner
     pets[:fishes].collect { |fish| fish.mood = "happy"}
   end
   
+  def sell_pets
+    pets.values do |pets|
   
   
   
