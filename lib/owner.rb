@@ -10,7 +10,7 @@ class Owner
     
   end
   
-  def pets 
+  def pets() 
   end
   
   
