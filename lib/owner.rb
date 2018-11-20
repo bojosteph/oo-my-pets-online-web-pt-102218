@@ -55,7 +55,8 @@ class Owner
   
   def sell_pets
     pets.values do |pets|
-      pets.map
+      pets.map {|pet| pet.mood = "nervous"}
+    end
   
   
   
