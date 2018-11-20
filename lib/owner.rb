@@ -55,7 +55,7 @@ class Owner
   
   def sell_pets
     pets.values do |pets|
-      pets
+      pets.map
   
   
   
