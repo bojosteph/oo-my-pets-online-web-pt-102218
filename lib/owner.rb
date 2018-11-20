@@ -3,7 +3,7 @@ class Owner
 
   
   def initialize
-    
+    owner.species = 
     
   end
   
